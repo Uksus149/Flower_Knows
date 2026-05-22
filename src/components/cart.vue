@@ -2,7 +2,6 @@
   <div class="cart-container">
     <div v-if="!cartItems.length" class="empty-cart-message">
       <h2>В корзине ничего нет</h2>
-      <p>Выберите товары или войдите в аккаунт, если добавляли товары в корзину</p>
     </div>
 
     <div v-else class="cart-items-list">
